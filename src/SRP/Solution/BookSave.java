@@ -1,6 +1,4 @@
-package SRP.BookSave;
-
-import SRP.Solution.BookSRP;
+package SRP.Solution;
 
 // Classe BookSaver : persistance
  class BookSaver {

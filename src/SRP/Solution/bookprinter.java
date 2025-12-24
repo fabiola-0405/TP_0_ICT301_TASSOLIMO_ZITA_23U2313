@@ -1,6 +1,4 @@
-package SRP.BookPrinter;
-
-import SRP.Solution.BookSRP;
+package SRP.Solution;
 
 
 class BookPrinter {

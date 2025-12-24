@@ -1,8 +1,6 @@
-package SRP.BookBusnessLogique;
+package SRP.Solution;
 
-import SRP.Solution.BookSRP;
-
-         class BookBusinessLogic {
+class BookBusinessLogic {
 
              public void emprunter(BookSRP book, String lecteur) {
 
