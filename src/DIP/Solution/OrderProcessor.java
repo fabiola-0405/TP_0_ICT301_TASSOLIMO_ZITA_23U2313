@@ -3,12 +3,11 @@ package DIP.Solution;
 
 public class OrderProcessor {
 
-    private Database database;
+    private DataBase database;
 
-    public OrderProcessor(Database database) {
 
+    public OrderProcessor(DataBase database) {
         this.database = database;
-
     }
 
     public void processOrder(String order) {

@@ -1,6 +1,6 @@
 package DIP.Solution;
 
-class MongoDBDatabase implements Database{
+public class MongoDBDatabase implements DataBase {
 
     @Override
 

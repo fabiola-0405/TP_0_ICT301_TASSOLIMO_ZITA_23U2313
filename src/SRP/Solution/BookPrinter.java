@@ -1,9 +1,6 @@
 package SRP.Solution;
 
-
-class BookPrinter {
-
-
+public class BookPrinter {
     public void printToScreen(BookSRP book) {
 
         System.out.println("===Print to Screen=== ");
@@ -28,4 +25,6 @@ class BookPrinter {
         System.out.println("<p>" + book.getContent() + "</p>");
 
     }
+
+
 }

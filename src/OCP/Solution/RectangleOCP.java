@@ -1,5 +1,6 @@
 package OCP.Solution;
-class RectangleOCP implements Shape {
+
+public class RectangleOCP implements Shape {
 
     private double width;
 

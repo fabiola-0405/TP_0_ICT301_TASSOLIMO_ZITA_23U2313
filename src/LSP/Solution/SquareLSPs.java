@@ -1,8 +1,7 @@
 package LSP.Solution;
 
-import LSP.Solution.ShapeLSP;
+public class SquareLSPs implements ShapeLSP {
 
-class SquareLSPs implements ShapeLSP {
 
     private int side;
 
@@ -11,6 +10,7 @@ class SquareLSPs implements ShapeLSP {
         this.side = side;
 
     }
+
     @Override
 
     public int getArea() {

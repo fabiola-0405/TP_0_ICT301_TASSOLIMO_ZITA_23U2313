@@ -1,6 +1,7 @@
+
 package LSP.Solution;
 
-class RectangleLSPs implements ShapeLSP {
+public class RectangleLSPs implements ShapeLSP{
 
     private int width;
 
@@ -19,5 +20,5 @@ class RectangleLSPs implements ShapeLSP {
     public int getArea() {
 
         return width * height;
-    }
+}
 }

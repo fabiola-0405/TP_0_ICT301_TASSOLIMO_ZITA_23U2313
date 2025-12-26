@@ -1,7 +1,5 @@
 package OCP.Solution;
 
-interface Shape {
+public interface Shape {
     double calculateArea();
 }
-
-

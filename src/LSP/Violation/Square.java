@@ -1,23 +1,21 @@
 package LSP.Violation;
 
-import LSP.Violation.RectangleLSPv;
-
-class Square extends RectangleLSPv {
-
+public class Square extends  RectangleLSPV {
     @Override
 
-    public void setWidth(int width) {
+public void setWidth(int width) {
 
-        super.setWidth(width);
+    super.setWidth(width);
 
-        super.setHeight(width);
+    super.setHeight(width);
 
-    }
+}
 
     @Override
-  public void setHeight(int height) {
+    public void setHeight(int height) {
 
         super.setWidth(height);
 
         super.setHeight(height); }
- }
+
+}

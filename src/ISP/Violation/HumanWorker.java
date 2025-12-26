@@ -1,6 +1,6 @@
 package ISP.Violation;
 
-class HumanWorker implements Worker {
+public class HumanWorker implements Worker {
 
     @Override
 
@@ -17,3 +17,4 @@ class HumanWorker implements Worker {
         System.out.println(" Les humains mangent");
     }
 }
+

@@ -1,6 +1,6 @@
 package ISP.Violation;
 
-class RobotWorker implements Worker {
+public class RobotWorker  implements Worker {
 
     @Override
 
@@ -19,3 +19,4 @@ class RobotWorker implements Worker {
         throw new UnsupportedOperationException("Les Robots ne mangent pas");
     }
 }
+

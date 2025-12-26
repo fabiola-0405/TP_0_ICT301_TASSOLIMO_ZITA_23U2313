@@ -1,6 +1,6 @@
 package DIP.Solution;
 
-interface Database {
+public interface DataBase {
 
     public void save(String data);
 }

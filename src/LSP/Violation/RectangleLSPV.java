@@ -1,6 +1,6 @@
 package LSP.Violation;
 
-class RectangleLSPv {
+public class RectangleLSPV {
     protected int width;
 
     protected int height;
@@ -21,3 +21,4 @@ class RectangleLSPv {
         return width * height;
     }
 }
+

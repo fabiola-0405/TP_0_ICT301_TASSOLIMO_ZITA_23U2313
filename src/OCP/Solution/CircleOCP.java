@@ -1,20 +1,14 @@
 package OCP.Solution;
 
-
-class CircleOCP implements Shape {
-
-    private double radius;
+public class CircleOCP implements Shape {
+    private double radius ;
 
     public CircleOCP(double radius) {
-
         this.radius = radius;
-
     }
 
     @Override
-
     public double calculateArea() {
-
-        return Math.PI * radius * radius;
+        return Math.PI*radius*radius;
     }
 }

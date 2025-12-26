@@ -1,8 +1,6 @@
 package SRP.Solution;
 
-// Classe BookSaver : persistance
- class BookSaver {
-
+public class BookSave {
     public void saveToDatabase(BookSRP book) {
 
         System.out.println("\nSauvegarde de '" + book.getTitle() + "' en base de données..."); }
@@ -12,4 +10,5 @@ package SRP.Solution;
     public void saveToFile(BookSRP book, String filename) {
 
         System.out.println("\nSauvegarde de '" + book.getTitle() + "' dans " + filename); }
- }
+
+}

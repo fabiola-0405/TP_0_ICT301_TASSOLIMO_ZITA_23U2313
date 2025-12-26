@@ -1,10 +1,4 @@
 package OCP.Violation;
-
-
-
-
-
-
 public class AreaCalculator {
 
     public double calculateArea(Object shape) {
